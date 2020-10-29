@@ -1,0 +1,28 @@
+{
+  "name": "happy",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Styllth Saraiva Ribeiro",
+    "email": "styllth@yahoo.com.br"
+  },
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "yarn workspace @repo/jest test",
+    "start:server": "yarn workspace @repo/server server",
+    "start:web": "yarn workspace @repo/spa-react start",
+    "start:mobile": "yarn workspace @repo/app-expo start",
+    "postinstall": "cd ./packages/app-expo && expo-yarn-workspaces postinstall"
+  },
+  "devDependencies": {
+    "@repo/eslint": "*",
+    "@repo/jest": "*",
+    "typescript": "^4.0.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@repo/axios",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
