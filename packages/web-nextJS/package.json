@@ -1,0 +1,30 @@
+{
+  "name": "@repo/web-next",
+  "version": "0.1.0",
+  "author": {
+    "name": "Styllth Saraiva Ribeiro",
+    "email": "styllth@yahoo.com.br"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@repo/axios": "*",
+    "next": "^10.0.2",
+    "next-images": "^1.6.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "swr": "^0.3.9"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "@types/react": "^17.0.0",
+    "@types/styled-components": "^5.1.4",
+    "babel-plugin-inline-react-svg": "^1.1.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}

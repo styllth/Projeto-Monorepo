@@ -17,6 +17,7 @@
     "test": "yarn workspace @repo/jest test",
     "start:server": "yarn workspace @repo/server server",
     "start:web": "yarn workspace @repo/spa-react start",
+    "start:web-next": "yarn workspace @repo/web-next dev",
     "start:mobile": "yarn workspace @repo/app-expo start",
     "postinstall": "cd ./packages/app-expo && expo-yarn-workspaces postinstall"
   },
